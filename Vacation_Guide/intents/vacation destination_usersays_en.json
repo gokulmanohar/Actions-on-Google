@@ -1,0 +1,80 @@
+[
+  {
+    "id": "54d4a0be-3989-47a2-b7cc-569b77056e9f",
+    "data": [
+      {
+        "text": "Popular vacation destination",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d3bdb386-bcf8-42dd-90a0-bb831ec42456",
+    "data": [
+      {
+        "text": "Popular ",
+        "userDefined": false
+      },
+      {
+        "text": "travel",
+        "alias": "Travel",
+        "meta": "@Travel",
+        "userDefined": false
+      },
+      {
+        "text": " destination",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7564b0d1-5792-4727-8c21-13130ad54273",
+    "data": [
+      {
+        "text": "Give me a ",
+        "userDefined": false
+      },
+      {
+        "text": "vacation",
+        "alias": "Travel",
+        "meta": "@Travel",
+        "userDefined": false
+      },
+      {
+        "text": " destination",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "719c4a35-161d-4d80-a1f6-c18a48e1d991",
+    "data": [
+      {
+        "text": "Ideas for ",
+        "userDefined": false
+      },
+      {
+        "text": "vacation",
+        "alias": "Travel",
+        "meta": "@Travel",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

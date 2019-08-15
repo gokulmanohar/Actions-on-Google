@@ -1,0 +1,60 @@
+{
+  "id": "4e144351-d0b3-4b90-8455-fe3a9247a37e",
+  "name": "Creator",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "I was created by Gokul.\nAnything else?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "No. Thank you"
+            },
+            {
+              "title": "How to enjoy travelling?"
+            },
+            {
+              "title": "Honeymoon ideas"
+            },
+            {
+              "title": "Anything to remember?"
+            },
+            {
+              "title": "Travelling alone"
+            },
+            {
+              "title": "Best island to visit"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e3b24d17-8460-4e3d-8d4f-42126a171ab2",
+    "data": [
+      {
+        "text": "Best season for travelling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1fd7c2e8-b5d0-411f-89d1-ace1ed81bc64",
+    "data": [
+      {
+        "text": "Which is the best season for travelling?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

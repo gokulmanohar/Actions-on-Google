@@ -1,0 +1,80 @@
+{
+  "id": "7db71954-45ca-448f-8b23-3671a9e2063a",
+  "name": "Best_country",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "According to business-insider, the best country to visit now is Italy.\nNeed any more assistance?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "ITALY",
+          "subtitle": "According to business-insider,",
+          "formattedText": "Who can resist the call of pasta and beautiful people? Not many, according to the CNT readers who\u0027ve voted for Italy as the world\u0027s best country to travel for five straight years. Italy is all about leisure — sip wine for hours in Venice\u0027s Piazza San Marco, make friends with a hammock on a villa in Tuscany, or find a spot on the cliffs of Riomaggiore with a good book.",
+          "image": {
+            "url": "https://cdn.thecrazytourist.com/wp-content/uploads/2017/08/Grand-Canal.jpg",
+            "accessibilityText": "Grand Canal"
+          },
+          "buttons": [
+            {
+              "title": "The 20 best countries to visit in your lifetime (2019)",
+              "openUrlAction": {
+                "url": "https://www.businessinsider.in/The-20-best-countries-to-visit-in-your-lifetime/1-ITALY-Who-can-resist-the-call-of-pasta-and-beautiful-people-Not-many-according-to-the-CNT-readers-whove-voted-for-Italy-as-the-worlds-best-country-to-travel-for-five-straight-years-Italy-is-all-about-leisure-sip-wine-for-hours-in-Venices-Piazza-San-Marco-make-friends-with-a-hammock-on-a-villa-in-Tuscany-or-find-a-spot-on-the-cliffs-of-Riomaggiore-with-a-good-book-/slideshow/49510692.cms",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "No. Thank you"
+            },
+            {
+              "title": "Travelling alone"
+            },
+            {
+              "title": "Give me some facts"
+            },
+            {
+              "title": "Best season for a trip"
+            },
+            {
+              "title": "Things to remember"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

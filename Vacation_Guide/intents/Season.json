@@ -1,0 +1,82 @@
+{
+  "id": "ce776845-25d9-4d21-bada-0523f60f38b6",
+  "name": "Season",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Sometimes, the best season is NOW!\nIs there anything you want to know more?",
+              "ssml": "",
+              "displayText": "Sometimes, the best season is NOW!\nIs there anything you want to know more?"
+            },
+            {
+              "textToSpeech": "Spring Travelling is quiet popular in some places. Is there anything you want to know more?",
+              "ssml": "",
+              "displayText": "Spring Travelling is quiet popular in some places. 🌺\nIs there anything you want to know more?"
+            },
+            {
+              "textToSpeech": "I am sure that somebody can enjoy a little snow.\nIs there anything you want to know more?",
+              "ssml": "",
+              "displayText": "I am sure that somebody can enjoy a little snow❄⛄.\nIs there anything you want to know more?"
+            },
+            {
+              "textToSpeech": "In some places, Summer can be quiet excellent.",
+              "ssml": "",
+              "displayText": "In some places, Summer can be quiet excellent. 😎⛱\nAnything more?"
+            },
+            {
+              "textToSpeech": "Dance of the rain and the call of bills - Tropical Rainy season. Need any more assistance?",
+              "ssml": "",
+              "displayText": "Dance of the rain and the call of bills - Tropical Rainy season 🌧\nNeed any more assistance?"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "No. Thanks"
+            },
+            {
+              "title": "Is travelling for richs?"
+            },
+            {
+              "title": "Best island to visit?"
+            },
+            {
+              "title": "Anything to remember?"
+            },
+            {
+              "title": "Travelling alone"
+            },
+            {
+              "title": "Anything to remember"
+            },
+            {
+              "title": "Honeymoon ideas"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

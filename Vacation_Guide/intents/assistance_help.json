@@ -1,0 +1,66 @@
+{
+  "id": "78906471-61e8-4b50-a541-0d312048cbc1",
+  "name": "assistance_help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "I\u0027ll certainly try my best. What can I assist you with?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "You can ask me to suggest a vacation destination and many more. What can I assist you with now?",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Best country"
+            },
+            {
+              "title": "Enjoy Travelling"
+            },
+            {
+              "title": "Honeymoon Trip Ideas"
+            },
+            {
+              "title": "Solo Travel"
+            },
+            {
+              "title": "Thank You"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,71 @@
+{
+  "id": "6f1cc02b-ff71-458d-98ea-c8d61d5b0758",
+  "name": "Best place on earth and why?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "There are different things about different countries which all makes them unique.\nIs there anything you want to know more?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Any place is \u0027better\u0027 with friends.\nCan I help you with something else?",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "No. Thanks"
+            },
+            {
+              "title": "Honeymoon ideas"
+            },
+            {
+              "title": "How to enjoy travelling?"
+            },
+            {
+              "title": "Best island to visit"
+            },
+            {
+              "title": "Travelling alone"
+            },
+            {
+              "title": "Best season"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

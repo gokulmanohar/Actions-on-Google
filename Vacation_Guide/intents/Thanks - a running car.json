@@ -1,0 +1,67 @@
+{
+  "id": "9f0ab14b-e84a-473d-810e-e17832e09b8c",
+  "name": "Thanks - a running car",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Happy travelling!",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Welcome. I am always here to help you.",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Bye👒",
+          "subtitle": "See ya!",
+          "formattedText": "Happy travelling my good old friend!",
+          "image": {
+            "url": "https://cdn.dribbble.com/users/1369840/screenshots/3374391/0317car-.gif",
+            "accessibilityText": "A running car"
+          },
+          "buttons": [
+            {
+              "title": "A running car",
+              "openUrlAction": {
+                "url": "https://dribbble.com/shots/3374391",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

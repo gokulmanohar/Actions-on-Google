@@ -1,0 +1,60 @@
+[
+  {
+    "id": "975bf473-f54a-4c25-ad0e-13d98b62199e",
+    "data": [
+      {
+        "text": "Vacation ideas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cd2015b5-e22f-4f53-b201-d67f2a114d18",
+    "data": [
+      {
+        "text": "Best Trip ideas.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16569a87-578e-4674-93dd-d26bbd453edf",
+    "data": [
+      {
+        "text": "The best island to go for a ",
+        "userDefined": false
+      },
+      {
+        "text": "vacation",
+        "alias": "Travel",
+        "meta": "@Travel",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d43dd5ba-b660-4ad7-84d3-c1d1e1190499",
+    "data": [
+      {
+        "text": "Which is the best island to visit?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "id": "c7401847-54cf-488d-a984-c67d612e85ce",
+  "name": "Rich travelling",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "No you don\u0027t have to be.\nAnything else?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "No you don\u0027t have to be.",
+          "subtitle": "Smart Travelling",
+          "formattedText": "According to CN Traveler, the beauty of travel is that it’s accessible to everyone, in some form. You don\u0027t have to go far to experience a new culture.",
+          "image": {
+            "url": "https://media.cntraveler.com/photos/5679c20667dc82253d9f2b0f/master/w_820,c_limit/luxury-pool-view-cr-gallery-stock.jpg",
+            "accessibilityText": "rich?"
+          },
+          "buttons": [
+            {
+              "title": "CNTRAVELLER",
+              "openUrlAction": {
+                "url": "https://www.cntraveler.com/galleries/2015-12-29/the-25-most-frequently-asked-travel-questionsanswered",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "No. Thank you"
+            },
+            {
+              "title": "Best season for a trip."
+            },
+            {
+              "title": "How to enjoy travelling?"
+            },
+            {
+              "title": "Honeymoon ideas"
+            },
+            {
+              "title": "Anything to remember"
+            },
+            {
+              "title": "Travelling alone"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

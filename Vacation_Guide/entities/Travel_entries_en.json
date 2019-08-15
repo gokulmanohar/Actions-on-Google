@@ -1,0 +1,23 @@
+[
+  {
+    "value": "Country",
+    "synonyms": [
+      "Country",
+      "Place"
+    ]
+  },
+  {
+    "value": "Travel",
+    "synonyms": [
+      "Travel",
+      "Trip"
+    ]
+  },
+  {
+    "value": "Vacation",
+    "synonyms": [
+      "Trip",
+      "Vacation"
+    ]
+  }
+]

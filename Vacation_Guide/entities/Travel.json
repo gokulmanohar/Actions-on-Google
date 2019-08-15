@@ -1,0 +1,9 @@
+{
+  "id": "606d6c8f-c096-4a27-a5dd-d5a6c873f417",
+  "name": "Travel",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,91 @@
+{
+  "id": "cf6e37d8-5272-45bd-9eec-85941ac6bd01",
+  "name": "Islands to visit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ebbd59c3-0d9e-473b-adda-9734b8485d83",
+          "required": false,
+          "dataType": "@Travel",
+          "name": "Travel",
+          "value": "$Travel",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Bora Bora Islands",
+          "subtitle": "Island vacation ideas.",
+          "formattedText": "Located in French Polynesia, northwest of Tahiti, this South Pacific island is popularly known for its scuba diving. Bora Bora experiences only two seasons — wet and dry — and you\u0027ll be happy to know that there are no poisonous insects or snakes on the white-sand beaches. Phew!",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Borabora-LeMeridien-Aerial2-HD.jpg",
+            "accessibilityText": "Bora Bora"
+          },
+          "buttons": [
+            {
+              "title": "Best islands in the world.",
+              "openUrlAction": {
+                "url": "https://www.housebeautiful.com/lifestyle/g13039177/best-islands-in-the-world/?slide\u003d1",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Is travelling for richs?"
+            },
+            {
+              "title": "Best country to visit."
+            },
+            {
+              "title": "How to enjoy travelling?"
+            },
+            {
+              "title": "Travelling alone"
+            },
+            {
+              "title": "No, thanks!"
+            },
+            {
+              "title": "Honeymoon ideas"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Bora Bora is a wonderful island to pay a visit. Is there anything more I can help you with?",
+            "If you are into scuba diving, you can\u0027t miss out Bora Bora Islands. Need anything more? If yes just ask!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

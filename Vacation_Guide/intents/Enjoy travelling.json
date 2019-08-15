@@ -1,0 +1,69 @@
+{
+  "id": "d3fd76d5-ff70-4fe0-a816-0922b89458aa",
+  "name": "Enjoy travelling",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Travelling with friends is great fun.\nNeed any further assistance? If yes just ask me!",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Bring your buddy and enjoy.\nIs there anything you want to know more?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Your buddy dog can be a great partner.\nNeed any further assistance? If yes just ask me!",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Is travelling for richs?"
+            },
+            {
+              "title": "No, thanks"
+            },
+            {
+              "title": "Best season for a trip."
+            },
+            {
+              "title": "Anything to remember?"
+            },
+            {
+              "title": "Honeymoon ideas"
+            },
+            {
+              "title": "Travelling alone"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

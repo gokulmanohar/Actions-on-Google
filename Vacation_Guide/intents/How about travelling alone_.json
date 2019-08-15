@@ -1,0 +1,97 @@
+{
+  "id": "8ac7a355-5a97-4bbf-b6de-ef2e25d23c11",
+  "name": "How about travelling alone?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b0230cbb-fd10-4b8d-b536-c4a971a3d46e",
+          "required": false,
+          "dataType": "@Travel",
+          "name": "Travel",
+          "value": "$Travel",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Traveling, particularly solo, is one of the most incredible gifts we can give ourselves in life.\nAnything else?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Solo Travelling",
+          "subtitle": "Requires great planning",
+          "formattedText": "First thing\u0027s first: If you\u0027ve never traveled solo before, get planning! There\u0027s nothing more eye-opening than discovering a new destination alone; you get to do what you want when you want, you\u0027ll meet more people, and you\u0027ll learn a whole lot about yourself in the process. Of course, whether you\u0027re just kicking off your solo travel career or you\u0027re a veteran lone globetrotter, there are some things—for safety\u0027s sake—that you\u0027ll want to have on hand. From portable power banks and alarms to first aid kits and anti-theft backpacks, here are 11 items to consider securing before vacation.",
+          "image": {
+            "url": "https://www.jetsetter.com/uploads/sites/7/2018/05/yQtw59Jh-1380x690.jpeg",
+            "accessibilityText": "Solo traveller"
+          },
+          "buttons": [
+            {
+              "title": "11 Products Every Solo Traveler Should Have on Hand",
+              "openUrlAction": {
+                "url": "https://www.jetsetter.com/magazine/products-for-solo-travelers/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Best season"
+            },
+            {
+              "title": "Best country to visit"
+            },
+            {
+              "title": "Best island to visit"
+            },
+            {
+              "title": "Honeymoon ideas"
+            },
+            {
+              "title": "Anything to remember?"
+            },
+            {
+              "title": "Travelling for richs?"
+            },
+            {
+              "title": "Thank you Vacation Guide"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

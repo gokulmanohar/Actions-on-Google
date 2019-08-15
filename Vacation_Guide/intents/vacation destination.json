@@ -1,0 +1,92 @@
+{
+  "id": "7161e033-558f-4e75-9339-e3b2e1c4c97e",
+  "name": "vacation destination",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5b613900-613a-470a-8ade-bd3028a3d211",
+          "required": false,
+          "dataType": "@Travel",
+          "name": "Travel",
+          "value": "$Travel",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Islands are a lot of fun. Need anything more?",
+              "ssml": "",
+              "displayText": "Islands are a lot of fun😎. Need anything more?"
+            },
+            {
+              "textToSpeech": "You can\u0027t go wrong with Italy. Need anything more?",
+              "ssml": "",
+              "displayText": "You can\u0027t go wrong with Italy. Need anything more?"
+            },
+            {
+              "textToSpeech": "You may visit Maldives. Need anything more?",
+              "ssml": "",
+              "displayText": "You may visit Maldives. Need anything more?"
+            },
+            {
+              "textToSpeech": "India is now popular among tourists. Need anything more?",
+              "ssml": "",
+              "displayText": "India is now popular among tourists. Need anything more?"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Best season"
+            },
+            {
+              "title": "Honeymoon trip ideas"
+            },
+            {
+              "title": "Solo travel"
+            },
+            {
+              "title": "Enjoy travelling"
+            },
+            {
+              "title": "Best country"
+            },
+            {
+              "title": "Thank you"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

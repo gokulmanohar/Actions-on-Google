@@ -1,0 +1,50 @@
+[
+  {
+    "id": "6cf617e5-01d0-4b83-bd89-d33f548bf511",
+    "data": [
+      {
+        "text": "Vacation ideas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b31aee6-12d7-4cf5-9440-fc68d4c85dd6",
+    "data": [
+      {
+        "text": "Any suggestions?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25ba5898-a137-4e74-b894-7d676f2855e5",
+    "data": [
+      {
+        "text": "Which is the best country to travel to?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9217831c-be55-4e9e-b0b0-1ce36b113a8f",
+    "data": [
+      {
+        "text": "Best country to visit?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

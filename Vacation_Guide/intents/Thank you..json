@@ -1,0 +1,77 @@
+{
+  "id": "453f70d2-3bc2-4c5e-b2bc-e0b3aa4dfd7f",
+  "name": "Thank you.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Welcome. I am always here to help you.",
+              "ssml": "",
+              "displayText": "Welcome. I am always here to help you 😊"
+            },
+            {
+              "textToSpeech": "See you soon",
+              "ssml": "",
+              "displayText": "See you soon🙂"
+            },
+            {
+              "textToSpeech": "See you soon",
+              "ssml": "",
+              "displayText": "Thank you for using Vacation Guide. See you soon 👋"
+            }
+          ]
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Bye Bye",
+          "subtitle": "Thank you for using vacation guide.",
+          "formattedText": "See you soon",
+          "image": {
+            "url": "https://media.giphy.com/media/l3V0bpnfbQ3Ygpup2/giphy.gif",
+            "accessibilityText": "Bye"
+          },
+          "buttons": [
+            {
+              "title": "giphy",
+              "openUrlAction": {
+                "url": "https://giphy.com/stickers/cindysuenkeys-l3V0bpnfbQ3Ygpup2/links",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Thank you"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "e3619904-473d-4198-a48b-aa1a59aa5d21",
+  "name": "What can you do?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Plan a trip",
+          "subtitle": "Get your doubts clarified",
+          "formattedText": "So how to make a quality vacation trip. Vacation guide is here to make the vacation of yours a little more exciting. Clear your doubts, make a decision and move on.",
+          "image": {
+            "url": "https://irisholidays.com/keralatourism/wp-content/uploads/2015/12/travel-tips-to-kerala.jpg",
+            "accessibilityText": "Kerala"
+          },
+          "buttons": [
+            {
+              "title": "50 Vacation Ideas for Every Type of Traveler",
+              "openUrlAction": {
+                "url": "https://travel.usnews.com/gallery/50-awesome-vacation-ideas-for-every-type-of-traveler",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Best season"
+            },
+            {
+              "title": "How to enjoy travelling?"
+            },
+            {
+              "title": "Things to remember"
+            },
+            {
+              "title": "Give me some facts"
+            },
+            {
+              "title": "Honeymoon ideas"
+            },
+            {
+              "title": "Travelling alone"
+            },
+            {
+              "title": "Who is your creator?"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Whether you have a doubt on the best season for travelling or you want to know what things to remember before travelling, you can use Vacation Guide. So what can I do for you now?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "5dd9a425-ddff-41b0-aeae-9046e3b28301",
+  "name": "Honeymoon trip idea",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "One of the best honeymoon destinations in the world is the beautiful islands of Maldives. Is there anything else?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Honeymoon Ideas",
+          "subtitle": "Relish the beauty of stunning white beaches",
+          "formattedText": "Digging your toes in white sand and walking hand in hand while turquoise waves lurch around is the most romantic thing to do on a beach at sunset. Choose from the destinations that are home to the best white beaches of the world and pick one that matches your choice and budget.",
+          "image": {
+            "url": "https://i2.wp.com/d1ssu070pg2v9i.cloudfront.net/pex/swd/2018/02/Ideal-honeymoon-online.jpg?fit\u003d700%2C467\u0026ssl\u003d1",
+            "accessibilityText": "Honeymoon ideas"
+          },
+          "buttons": [
+            {
+              "title": "Romantic Honeymoon Ideas",
+              "openUrlAction": {
+                "url": "https://traveltriangle.com/blog/romantic-honeymoon-ideas/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Best Season"
+            },
+            {
+              "title": "Travel alone"
+            },
+            {
+              "title": "Best island to visit"
+            },
+            {
+              "title": "Best country"
+            },
+            {
+              "title": "Thank you vacation guide"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

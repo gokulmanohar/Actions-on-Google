@@ -1,0 +1,58 @@
+{
+  "id": "46ed72db-4038-42d1-9956-1a999b1b2d49",
+  "name": "Commodity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Don\u0027t forget to take Sun-glass, Passport, Sunscreen etc... \nIs there anything you want to know more?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Take your purse.\nIs there anything you want to know more?",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Thank you"
+            },
+            {
+              "title": "No. Thanks"
+            },
+            {
+              "title": "Rich travelling"
+            },
+            {
+              "title": "Best place to visit"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

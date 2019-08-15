@@ -1,0 +1,76 @@
+{
+  "id": "b87721e6-cf2b-4a99-81fa-a0b0b723feab",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Hey Traveller! What can I do for you today?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Hiya Traveller! What\u0027s on your mind?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Hello there! What\u0027s on your mind today?",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            },
+            {
+              "title": "How to enjoy travelling"
+            },
+            {
+              "title": "Best season for a trip"
+            },
+            {
+              "title": "Best country to visit"
+            },
+            {
+              "title": "Honeymoon ideas"
+            },
+            {
+              "title": "Anything to remember?"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

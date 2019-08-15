@@ -1,0 +1,26 @@
+[
+  {
+    "id": "362a609c-24bc-4974-9318-76359dfe22b9",
+    "data": [
+      {
+        "text": "Which is the best place to visit?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2018e84c-693e-4929-836a-7478a8864446",
+    "data": [
+      {
+        "text": "What is the best place on Earth and why?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
